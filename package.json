@@ -1,0 +1,29 @@
+{
+  "name": "async-array-find",
+  "version": "1.0.0",
+  "description": "Asynchronous array search.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergey-zatulivetrov/async-array-find.git"
+  },
+  "keywords": [
+    "async",
+    "async array",
+    "async find",
+    "array find"
+  ],
+  "author": {
+    "name": "Sergey Zatulivetrov",
+    "email": "remils@mail.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergey-zatulivetrov/async-array-find/issues",
+    "email": "remils@mail.ru"
+  },
+  "homepage": "https://github.com/sergey-zatulivetrov/async-array-find#readme",
+  "files": [
+    "index.js"
+  ]
+}

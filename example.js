@@ -1,13 +1,6 @@
-# async-array-find
-
-Searching a large array using subarray division and wrapping them in a Promise.
-
-<img src="https://github.com/sergey-zatulivetrov/async-array-find/blob/main/example.png?raw=true" alt="example"/>
+const asyncArrayFindIndex = require('./index')
 
 
-## example
-
-```javascript
 function createArray(N) {
     // [0, 1, 2, ... , N]
     return Array.from(Array(N).keys())
@@ -50,4 +43,3 @@ async function arrayFindIndex() {
 }
 
 arrayFindIndex()
-```
