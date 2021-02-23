@@ -5,7 +5,7 @@ Searching a large array using subarray division and wrapping them in a Promise.
 <img src="https://github.com/sergey-zatulivetrov/async-array-find/blob/main/example.png?raw=true" alt="example"/>
 
 
-##install
+## install
 
 ```ssh
 npm i async-array-find
