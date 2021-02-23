@@ -1,6 +1,6 @@
 {
   "name": "async-array-find",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Asynchronous array search.",
   "main": "index.js",
   "repository": {

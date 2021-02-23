@@ -8,7 +8,7 @@ function findIndex(arr, start, stop, callback) {
     return -1
 }
 
-function asyncArrayFindIndex(arr, callback, subarrLength) {
+function asyncArrayFindIndex(arr, callback, subarrLength = 10000) {
     return new Promise(function (resolve) {
         const maxCount = arr.length
         const maxCountReject = Math.ceil(maxCount / subarrLength)
@@ -42,6 +42,6 @@ function asyncArrayFindIndex(arr, callback, subarrLength) {
     })
 }
 
-module.exports = module.exports.default = function (arr, callback, subarrLength = 10000) {
-    return asyncArrayFindIndex(arr, callback, subarrLength)
+module.exports = {
+    asyncArrayFindIndex: asyncArrayFindIndex
 }
